@@ -1,0 +1,21 @@
+.navbar-light .navbar-brand {
+  background-image: url("../../assets/img/logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  width: 130px;
+  height: 20px;
+}
+
+#navcol-1 {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #222;
+  padding: 10px;
+}
+

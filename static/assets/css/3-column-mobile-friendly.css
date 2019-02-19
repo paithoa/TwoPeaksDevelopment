@@ -1,0 +1,43 @@
+.site-section {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+@media (max-width:991px) {
+  #why .item {
+    padding-bottom: 36px;
+  }
+}
+
+@media (max-width:991px) {
+  #why {
+    padding-bottom: 14px;
+  }
+}
+
+#why .item i {
+  font-size: 42px;
+  color: rgb(239,79,145);
+}
+
+#why .item h2 {
+  font-weight: normal;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#why .item p {
+  color: #6f767a;
+}
+
+.text-center.highlight-phone {
+  opacity: 0.7px;
+}
+
