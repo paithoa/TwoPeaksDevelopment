@@ -11,6 +11,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/static'));
 app.set('view engine', 'ejs');
 
+
+var port = process.env.PORT || 8080;
+
 /*
 axios.get('https://rubybookre.herokuapp.com/dymocks')
   .then(response => {
@@ -92,6 +95,6 @@ console.log(task)
 
 */
 //the server is listening on port 3000 for connections
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log('Example app listening on port 3000!')
 });
